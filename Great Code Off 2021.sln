@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Great Code Off 2021", "Great Code Off 2021\Great Code Off 2021.csproj", "{A5AA5662-B00A-464D-8E13-8D757E0B64C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Great Code Off 2021.Tests", "Great Code Off 2021.Tests\Great Code Off 2021.Tests.csproj", "{493A49BF-0DDF-482B-AA0E-58BFE2143D5C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AA5662-B00A-464D-8E13-8D757E0B64C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AA5662-B00A-464D-8E13-8D757E0B64C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AA5662-B00A-464D-8E13-8D757E0B64C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AA5662-B00A-464D-8E13-8D757E0B64C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493A49BF-0DDF-482B-AA0E-58BFE2143D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493A49BF-0DDF-482B-AA0E-58BFE2143D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493A49BF-0DDF-482B-AA0E-58BFE2143D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493A49BF-0DDF-482B-AA0E-58BFE2143D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
